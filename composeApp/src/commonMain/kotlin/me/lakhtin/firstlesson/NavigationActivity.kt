@@ -36,7 +36,7 @@ fun NavigationActivity(
         composable<Route.DetailRoute>(
             deepLinks = listOf(
                 navDeepLink<Route.DetailRoute>(
-                    basePath = "smartkeyboard://details"
+                    basePath = "myappschema://details"
                 )
             )
         ) { stackEntry ->
